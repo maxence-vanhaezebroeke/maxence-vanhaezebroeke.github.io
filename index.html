@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Home</title>
+
+    <!--
+        <link rel="stylesheet" media="screen and (max-width:700px)" href="" />
+    -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+
+<body id="body">
+
+    <nav id="nav_bar">
+
+        <a rel="home" href="index.html" title="Accueil" id="home_logo">
+            <img src="img/home_b.png" alt="Accueil" class="home_icon" />
+        </a>
+
+        <div class="menu_items">
+
+            <div class="columnNav" title="Mon profil">
+                <a rel="About" href="profile.html">
+                    <div class="onglet">Qui suis-je?</div>
+                    <img src="img/profile.png" alt="A propos" />
+                </a>
+            </div>
+
+            <div class="columnNav" title="Mes compétences">
+                <a rel="Skills" href="skills.html">
+                    <div class="onglet">Compétences</div>
+                    <img src="img/skills.png" alt="Compétences" />
+                </a>
+            </div>
+
+            <div class="columnNav" title="Mes projets">
+                <a rel="Projects" href="projects_selection.html">
+                    <div class="onglet">Projets</div>
+                    <img src="img/projects.png" alt="Projets" />
+                </a>
+            </div>
+
+            <div class="columnNav" title="Expériences professionnelles">
+                <a rel="experiences" href="experiences.html">
+                    <div class="onglet">Expériences pro.</div>
+                    <img src="img/briefcase.svg" alt="Projets" />
+                </a>
+            </div>
+
+            <div class="columnNav" title="Me contacter">
+                <a rel="Contact me" href="contact.html">
+                    <div class="onglet">Me contacter</div>
+                    <img src="img/contact_me.png" alt="Me contacter" />
+                </a>
+            </div>
+
+        </div>
+
+    </nav>
+    
+    <h1 style="text-align:center;padding-top: 5%;position:absolute;padding-left:35%;">Bienvenue sur mon site Web!</h1>
+
+    <h1 style="text-align:center;padding-top: 12%;position:absolute;padding-left:30%;z-index:10;">Je m'appelle Maxence Vanhaezebroeke<br />étudiant en informatique</h1>
+
+    <canvas id="bgCanvas" style="z-index:-1;"></canvas>
+
+
+    <script type="text/javascript" src="js/anim-index.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
