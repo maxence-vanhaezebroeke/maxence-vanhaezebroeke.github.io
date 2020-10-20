@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 600 435"
+   xml:space="preserve"
+   sodipodi:docname="printer-test1.svg"
+   width="600"
+   height="435"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"><metadata
+   id="metadata53"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs51" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1013"
+   id="namedview49"
+   showgrid="false"
+   inkscape:zoom="1.2667743"
+   inkscape:cx="116.1462"
+   inkscape:cy="282.96935"
+   inkscape:window-x="-9"
+   inkscape:window-y="-9"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1"
+   inkscape:document-rotation="0" />
+<g
+   id="g16"
+   transform="matrix(0.57506411,0,0,0.57506411,164.19658,73.414815)">
+	<g
+   id="g14">
+		<g
+   id="g12">
+			<path
+   d="m 467.804,32.197 -30,-30 C 436.396,0.79 434.489,0 432.5,0 h -395 c -1.989,0 -3.897,0.79 -5.303,2.197 l -30,30 C 0.79,33.603 0,35.511 0,37.5 v 425 c 0,4.142 3.358,7.5 7.5,7.5 h 60 c 4.142,0 7.5,-3.358 7.5,-7.5 V 440 h 320 v 22.5 c 0,4.142 3.357,7.5 7.5,7.5 h 60 c 4.143,0 7.5,-3.358 7.5,-7.5 v -425 c 0,-1.989 -0.79,-3.897 -2.196,-5.303 z M 128.321,15 h 205 v 75 h -205 V 15 Z M 395,105 V 365 H 75 V 105 Z m 60,350 h -45 v -22.5 c 0,-4.142 -3.357,-7.5 -7.5,-7.5 h -335 c -4.142,0 -7.5,3.358 -7.5,7.5 V 455 H 15 V 40.606 L 40.606,15 H 113.32 V 90 H 67.5 C 63.358,90 60,93.358 60,97.5 v 275 c 0,4.142 3.358,7.5 7.5,7.5 h 335 c 4.143,0 7.5,-3.358 7.5,-7.5 V 97.5 C 410,93.358 406.643,90 402.5,90 H 348.32 V 15 h 81.073 L 455,40.606 Z"
+   id="path2" />
+			<path
+   d="m 97.5,350 h 275 c 4.143,0 7.5,-3.358 7.5,-7.5 0,-4.142 -3.357,-7.5 -7.5,-7.5 h -54.18 v -32.5 c 0,-4.142 -3.357,-7.5 -7.5,-7.5 h -160 c -4.142,0 -7.5,3.358 -7.5,7.5 V 335 H 97.5 c -4.142,0 -7.5,3.358 -7.5,7.5 0,4.142 3.358,7.5 7.5,7.5 z m 60.821,-40 h 145 v 25 h -145 z"
+   id="path4" />
+			<path
+   d="m 180.821,180 h 12.5 v 22.5 c 0,4.142 3.358,7.5 7.5,7.5 h 22.5 v 32.5 c 0,4.142 3.358,7.5 7.5,7.5 h 80 c 4.143,0 7.5,-3.358 7.5,-7.5 0,-4.142 -3.357,-7.5 -7.5,-7.5 h -72.499 v -25 h 22.499 c 4.143,0 7.5,-3.358 7.5,-7.5 V 180 h 12.5 c 4.143,0 7.5,-3.358 7.5,-7.5 v -45 c 0,-4.142 -3.357,-7.5 -7.5,-7.5 -4.143,0 -7.5,3.358 -7.5,7.5 V 165 h -85 v -37.5 c 0,-4.142 -3.358,-7.5 -7.5,-7.5 -4.142,0 -7.5,3.358 -7.5,7.5 v 45 c 0,4.142 3.358,7.5 7.5,7.5 z m 27.499,0 h 45 v 15 h -45 z"
+   id="path6" />
+			<path
+   d="m 295.82,30 c -12.406,0 -22.5,10.093 -22.5,22.5 0,12.407 10.094,22.5 22.5,22.5 12.406,0 22.5,-10.093 22.5,-22.5 0,-12.407 -10.093,-22.5 -22.5,-22.5 z m 0,30 c -4.136,0 -7.5,-3.364 -7.5,-7.5 0,-4.136 3.364,-7.5 7.5,-7.5 4.136,0 7.5,3.364 7.5,7.5 0,4.136 -3.364,7.5 -7.5,7.5 z"
+   id="path8" />
+			<path
+   d="m 150.821,280 h 160 c 4.143,0 7.5,-3.358 7.5,-7.5 0,-4.142 -3.357,-7.5 -7.5,-7.5 h -160 c -4.142,0 -7.5,3.358 -7.5,7.5 0,4.142 3.358,7.5 7.5,7.5 z"
+   id="path10" />
+		</g>
+	</g>
+</g>
+<g
+   id="g18">
+</g>
+<g
+   id="g20">
+</g>
+<g
+   id="g22">
+</g>
+<g
+   id="g24">
+</g>
+<g
+   id="g26">
+</g>
+<g
+   id="g28">
+</g>
+<g
+   id="g30">
+</g>
+<g
+   id="g32">
+</g>
+<g
+   id="g34">
+</g>
+<g
+   id="g36">
+</g>
+<g
+   id="g38">
+</g>
+<g
+   id="g40">
+</g>
+<g
+   id="g42">
+</g>
+<g
+   id="g44">
+</g>
+<g
+   id="g46">
+</g>
+</svg>

@@ -1,79 +1,799 @@
 <!DOCTYPE html>
-<html lang="fr-FR">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8" http-equiv="Content-Type" content="text/html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Portfolio de Maxence Vanhaezebroeke" />
+    <title>Maxence Vanhaezebroeke</title>
 
-    <title>Home</title>
+    <!-- Favicon + Font Awesome icons (free version)-->
+    <link rel="icon" type="image/x-icon" href="assets/img/mon-logo-blanc.svg" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
 
-    <!--
-        <link rel="stylesheet" media="screen and (max-width:700px)" href="" />
-    -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/social_media.css" rel="stylesheet" />
+    <link href="css/intro.css" rel="stylesheet" />
 </head>
 
-<body id="body">
 
-    <nav id="nav_bar">
 
-        <a rel="home" href="index.html" title="Accueil" id="home_logo">
-            <img src="img/home_b.png" alt="Accueil" class="home_icon" />
-        </a>
+<body id="page-top">
 
-        <div class="menu_items">
+    <div id="loader-wrapper">
+        <div id="loader"></div>
 
-            <div class="columnNav" title="Mon profil">
-                <a rel="About" href="profile.html">
-                    <div class="onglet">Qui suis-je?</div>
-                    <img src="img/profile.png" alt="A propos" />
-                </a>
+        <button type="button" class="loading-button" disabled><i>PLAY</i></button>
+
+        <div class="loader-section section-top"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-bottom"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+
+
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-dark text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Maxence Vanhaezebroeke</a>
+            <button
+                class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-danger text-white rounded"
+                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="#projets">Projets</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="#experience">Expérience</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Masthead-->
+    <section class="page-section bg-secondary text-white padding-top-calc-custom">
+        <div class="container">
+            <!--Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase mb-0">Présentation</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                <div class="divider-custom-line"></div>
             </div>
 
-            <div class="columnNav" title="Mes compétences">
-                <a rel="Skills" href="skills.html">
-                    <div class="onglet">Compétences</div>
-                    <img src="img/skills.png" alt="Compétences" />
-                </a>
-            </div>
 
-            <div class="columnNav" title="Mes projets">
-                <a rel="Projects" href="projects_selection.html">
-                    <div class="onglet">Projets</div>
-                    <img src="img/projects.png" alt="Projets" />
-                </a>
-            </div>
+            <!-- About Section Content-->
+            <div class="row">
+                <div class="col-lg-6 ml-auto">
+                    <p class="lead">Je m'appelle Maxence Vanhaezebroeke, j'ai 20 ans, et je suis en études
+                        d'informatiques
+                        à Clermont-Ferrand.<br /><br />
+                        Ayant obtenu mon DUT puis ma licence informatique à Clermont-Ferrand, je suis
+                        actuellement
+                        en première année d'un master informatique.
+                    </p>
+                </div>
+                <div class="col-lg-6 mr-auto">
+                    <p class="lead">Je suis passionné par le développement et la conception de jeux vidéos.<br />
+                        Je travaille beaucoup sur <u>Unreal Engine</u> et <u>Unity</u> pour le développement de
+                        jeux.<br />
+                        Je réalise aussi d'autres travaux en tout genre dans différents langages de programmation.
+                    </p>
+                </div>
 
-            <div class="columnNav" title="Expériences professionnelles">
-                <a rel="experiences" href="experiences.html">
-                    <div class="onglet">Expériences pro.</div>
-                    <img src="img/briefcase.svg" alt="Projets" />
-                </a>
-            </div>
-
-            <div class="columnNav" title="Me contacter">
-                <a rel="Contact me" href="contact.html">
-                    <div class="onglet">Me contacter</div>
-                    <img src="img/contact_me.png" alt="Me contacter" />
-                </a>
             </div>
 
         </div>
-
-    </nav>
-    
-    <h1 style="text-align:center;padding-top: 5%;position:absolute;padding-left:35%;">Bienvenue sur mon site Web!</h1>
-
-    <h1 style="text-align:center;padding-top: 12%;position:absolute;padding-left:30%;z-index:10;">Je m'appelle Maxence Vanhaezebroeke<br />étudiant en informatique</h1>
-
-    <canvas id="bgCanvas" style="z-index:-1;"></canvas>
+    </section>
 
 
-    <script type="text/javascript" src="js/anim-index.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <!-- Projets Scolaires Section-->
+    <section class="page-section portfolio" id="projets">
+        <div class="container">
+            <!--Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase mb-0">Projets</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row">
+                <!-- Portfolio Item 1-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#projet-scolaire-monde-auto"
+                        style="height:100%;width:100%;">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Monde Automobile</div>
+                        </div>
+                        <img class="img-fluid img-thumbnail" src="assets/img/thumbnails/auto.svg" />
+                    </div>
+                </div>
 
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal"
+                        data-target="#projet-scolaire-paye-genereuse">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Paye Généreuse</div>
+                        </div>
+                        <img class="img-fluid img-thumbnail" src="assets/img/thumbnails/dices.svg" />
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal"
+                        data-target="#projet-scolaire-imprimante-3D">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Imprimante 3D</div>
+                        </div>
+                        <img class="img-fluid img-thumbnail" src="assets/img/thumbnails/printer.svg" />
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#projet-scolaire-unity-robot">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Pilotage robot via Unity
+                            </div>
+                        </div>
+                        <img class="img-fluid img-thumbnail" src="assets/img/thumbnails/robot.svg" />
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal"
+                        data-target="#projet-personnel-jeu-unity-solo">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Jeu de plateforme sous
+                                Unity
+                            </div>
+                        </div>
+                        <img class="img-fluid img-thumbnail" src="assets/img/thumbnails/parkour.svg" />
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal"
+                        data-target="#projet-personnel-jeu-unreal-multijoueur">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Jeu Multijoueur sous
+                                Unreal Engine</div>
+                        </div>
+                        <img class="img-fluid img-thumbnail" src="assets/img/thumbnails/katana.svg" />
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="page-section bg-secondary text-white portfolio mb-0" id="experience">
+        <div class="container">
+            <!--Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase mb-0">Expériences</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#experience-picture">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Stage Assistant IT chez
+                                Picture Organic Clothing</div>
+                        </div>
+                        <img class="img-fluid border border-light rounded"
+                            src="assets/img/thumbnails/computer.svg" />
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+    </section>
+
+
+    <!-- Footer-->
+    <footer class="footer text-center" style="border-top: 1px solid white;">
+
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="social_media">
+                    <ul class="row">
+                        <li class="col-sm"><a href="https://www.facebook.com/maxence.vanhaezebroeke" target="_blank"><i
+                                    class="fa fa-facebook-square"></i></a></li>
+                        <li class="col-sm"><a href="https://github.com/maxence-vanhaezebroeke" target="_blank"><i
+                                    class="fa fa-github"></i></a></li>
+                        <li class="col-sm"><a href="mailto:maxence.vanhaezebroeke@gmail.com" target="_blank"><i
+                                    class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                        <li class="col-sm"><a href="https://www.linkedin.com/in/maxence-vanhaezebroeke-8846b0151/"
+                                target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <!-- <li class="col-sm"><a href=""><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a></li>
+                        -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright © Maxence Vanhaezebroeke - maxence.vanhaezebroeke@gmail.com</small>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
+                class="fa fa-chevron-up"></i></a>
+    </div>
+
+
+
+    <!-- Portfolio Modals-->
+
+    <!-- Portfolio Modal Monde Auto-->
+    <div class="portfolio-modal modal fade" id="projet-scolaire-monde-auto" tabindex="-1" role="dialog"
+        aria-labelledby="projet-scolaire-monde-auto-label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                </button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-center"
+                                    id="projet-scolaire-monde-auto-label">Monde automobile en C#/XAML</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-3" src="assets/img/portfolio/mondeauto-1.png"
+                                    alt="Présentation du logiciel" />
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">
+                                    <i> (2018) - Projet Scolaire</i><br /><br />
+                                    En fin de première année d'IUT, j'ai pu assisté à cours un sur l'interface
+                                    homme-machine.
+                                    Nous avons pu apprendre comment créer un logiciel en C#, avec l'ajout de la
+                                    persistance pour ne pas perdre les données saisies sur le
+                                    logiciel.<br />
+                                    <br />
+                                    En collaboration avec un ami, nous avons décidé de créer un logiciel capable
+                                    d'enregistrer des noms de
+                                    voiture, avec leurs caractéristiques techniques.
+                                    Étant tous deux intéressés par le domaine de l'automobile, il nous arrive parfois de
+                                    croiser une voiture
+                                    dans la rue, dans un jeu vidéo ou dans tout autre lieu, et de ne pas pouvoir nous
+                                    rappeler du modèle.
+                                    Le but de notre logiciel est de pouvoir ajouter un véhicule selon la marque par
+                                    exemple, que l'on peut
+                                    distinguer plus facilement que le modèle en lui même.<br />
+                                    <br />
+                                    Nous avons donc décidés de répertorier les véhicules par marque : pour accéder à un
+                                    véhicule, il faut
+                                    d'abord choisir la marque. <br />
+                                    On peut voir sur l'image ci-dessus la liste des marques affichées (ici, seulement
+                                    Renault est présente).
+                                    Si l'on veut modifier un détail sur la marque (PDG ou Pays), il nous suffit de
+                                    cliquer dessus et de changer
+                                    les informations qui seront chargées sur le volet de droite.<br />
+                                    On peut également ajouter et supprimer des marques. Pour accéder aux véhicules, il
+                                    faut cliquer sur une marque,
+                                    puis une fois la marque sélectionnée, cliquer sur le bouton "Voiture" en haut de
+                                    l'écran. <br />
+                                    <br />
+                                    On accède ensuite à un menu similaire, mais avec le nom des voitures et les
+                                    caractéristiques techniques.
+                                    (nombre de chevaux, portes, couple, etc.)<br />
+                                    A la fermeture du logiciel, toutes les informations saisies étaient enregistrées
+                                    dans des fichiers .json,
+                                    qui seront chargés au prochain démarrage de l'application.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio Modal Paye Généreuse-->
+    <div class="portfolio-modal modal fade" id="projet-scolaire-paye-genereuse" tabindex="-1" role="dialog"
+        aria-labelledby="projet-scolaire-paye-genereuse-label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                </button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-center"
+                                    id="projet-scolaire-paye-genereuse-label">Paye Généreuse en Java</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-3" src="assets/img/portfolio/paye-genereuse-1.jpg"
+                                    alt="Présentation du jeu" />
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-0">
+                                    <i> (2019) - Projet Scolaire</i><br /><br />
+                                    Durant ma deuxième année d'IUT, nous avons eu cours un sur la programmation orientée
+                                    objet (Java).
+                                    L'objectif était de créer une application XML en Java (le sujet de l'application
+                                    était libre) tout
+                                    en utilisant des patrons de conception que nous avions vu en cours
+                                    précédemment.<br />
+                                    Une fois de plus, j'ai réalisé ce projet avec un ami.<br />
+                                    <br />
+                                    Nous avons choisi pour thème d'application le jeu de plateau "La bonne paye" que
+                                    nous avons renommé "La paye
+                                    Généreuse".<br />
+                                    L'objectif était d'avoir un jeu fonctionnel en multijoueur (en local), c'est
+                                    pourquoi nous avons décidé de
+                                    créer un plateau avec peu de cases (- de 10) afin de se concentrer sur la partie
+                                    métier de notre jeu.<br />
+
+                                    Sur l'écran de jeu, nous affichons différentes informations :
+                                </p>
+                                <ul class="mb-5">
+                                    <li>Le tour actuel du joueur</li>
+                                    <li>La position des joueurs sur le plateau avec le pion</li>
+                                    <li>Le bouton "lancer le dé" (qui va passer au tour du joueur suivant, changer la
+                                        position du joueur et
+                                        changer l'image du dé)</li>
+                                    <li>La partie profil (qui contient le nom du joueur, la couleur de son pion et
+                                        l'argent qu'il lui reste)
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio Modal Imprimante 3D -->
+    <div class="portfolio-modal modal fade" id="projet-scolaire-imprimante-3D" tabindex="-1" role="dialog"
+        aria-labelledby="projet-scolaire-imprimante-3D-label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                </button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-center"
+                                    id="projet-scolaire-imprimante-3D-label">Gestion d'une imprimante 3D - documentation
+                                    3D</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-3" src="assets/img/portfolio/screen_open_dice.png"
+                                    alt="Présentation du logiciel openscad" />
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-0">
+                                    <i> (2019) - Projet Scolaire</i><br /><br />
+                                    Au cours de ma 2ème année d'IUT, j'ai eu l'occasion de travailler sur un projet
+                                    tutoré, ayant pour but de mettre à disposition une imprimante 3D pour les étudiants
+                                    de l'IUT.<br />
+                                    Notre groupe de travail avait pour rôle de :
+                                    <br />
+                                </p>
+                                <ul>
+                                    <li><u>Gérer les maintenances de l'imprimante</u></li>
+                                    <li>Développer une interface web pour réserver l'imprimante (comprennant le
+                                        développement d'un calendrier
+                                        <br />
+                                        sur un site web, et d'une Raspberry PI pour configurer un serveur Web dessus)
+                                    </li>
+                                    <li><u>Écrire une documentation sur la partie modélisation 3D</u></li>
+                                    <li>Écrire une documentation pour permettre aux utilisateurs d'utiliser l'imprimante
+                                        dans de bonnes
+                                        conditions</li>
+                                    <li><i>Réaliser un menu simple en C/C++ embarqué sur l'imprimante pour faciliter son
+                                            utilisation</i></li>
+                                </ul>
+
+                                <p class="mb-0">
+                                    Nous avons tous appris comment fonctionne une imprimante 3D pour tous être capables
+                                    de pouvoir gérer les maintenances.
+                                    Je me suis occupé de la partie modélisation 3D, et j'ai aussi apporté mon aide dans
+                                    la réalisation d'un menu C/C++ simplifié.<br />
+                                    Les logiciels que j'ai utilisé devait être gratuit pour que tous les étudiants de
+                                    l'IUT puissent y accéder.
+                                    J'ai donc utilisé les logiciels OpenSCAD et FreeCAD. <br />
+                                    <br />
+                                    Ce sont des logiciels de modélisation 3D qui fonctionnent de manière légèrement
+                                    différente : sous OpenSCAD, l'utilisateur écrit des lignes de code pour assembler
+                                    une pièce,
+                                    alors que sous FreeCAD, l'utilisateur intéragit avec des menus. <br />
+                                    <br />
+                                    Pour plus d'informations sur ces logiciels :<br />
+                                    - OpenSCAD : <a href="https://www.openscad.org/" target="_blank">lien vers le site</a><br />
+                                    - FreeCAD : <a href="https://www.freecadweb.org/" target="_blank">lien vers le site</a><br />
+                                    <br />
+                                    Des documentations existent déjà sur chacun des sites; mon objectif était de
+                                    faciliter la création d'une pièce, et de guider les étudiants pour obtenir un
+                                    fichier imprimable.<br />
+                                    Les fichiers générés par les logiciels de modélisation ne sont pas directement
+                                    imprimable : en effet, le format du fichier n'est le bon, et pour générer le bon
+                                    format de fichier,
+                                    il va falloir convertir la pièce 3D avec les informations relatives à l'imprimante
+                                    (température, taux de remplissage, vitesse, etc.)<br />
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Portfolio Modal Robot Unity -->
+    <div class="portfolio-modal modal fade" id="projet-scolaire-unity-robot" tabindex="-1" role="dialog"
+        aria-labelledby="projet-scolaire-unity-robot-label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                </button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-center"
+                                    id="projet-scolaire-unity-robot-label">Interface Unity pour robot Lego mindstorm ev3
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe src="https://www.youtube.com/embed/xalyuJIUhI8"
+                                        class="personnal-project-video" frameborder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-0">
+                                    <i> (2019) - Projet Scolaire</i><br /><br />
+                                    En fin d'année d'IUT, nous avons eu cours sur la réalité virtuelle, avec pour projet
+                                    de réaliser un programme utilisant une technologie liée à la réalité virtuelle au
+                                    choix.
+                                    (casque de réalité virtuelle, bracelet doté de capteurs, etc.)<br />
+                                    <br />
+                                    En binôme, nous avons choisi de réaliser une interface graphique permettant de
+                                    contrôler à distance un robot
+                                    Lego Mindstorm Ev3. Cette interface a été réalisée sur Unity, elle permet de
+                                    contrôler le robot via
+                                    Bluetooth. Nous avons également choisi que pour interagir avec cette interface, nous
+                                    utiliserons le dispositif de reconnaissance de mouvements Leap Motion.
+
+                                    Sur la vidéo, on peut voir un test de l'interface avec des déplacements du
+                                    robot.<br />
+                                    <br />
+                                    On dispose de plusieurs boutons sur l'écran permettant de faire bouger le robot,
+                                    mais on peut également voir 2 boutons vert et rouge lorsque l'on tourne la main
+                                    gauche.
+                                    (paume de main vers le ciel)
+                                    En appuyant sur le bouton vert, le logiciel va se connecter en Bluetooth au robot.
+                                    (Les LED frontales du robot clignotent pour indiquer la réussite de la
+                                    connexion)<br />
+                                    Le bouton rouge sert à se déconnecter et à quitter le logiciel. <br />
+                                    <br />
+                                    Pour que le robot avance, il faut tenir la jauge en bas droite dans une main. Cette
+                                    jauge sert également à diriger à droite et à gauche le robot.<br />
+                                    Le bouton en haut à gauche de l'écran sert à inverser le sens des moteurs : il
+                                    permet au robot de faire marche arrière. <br />
+                                    Et le bouton et haut à droite permet de doubler la vitesse du robot. (fonctionne en
+                                    marche avant comme en marche arrière)<br />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Portfolio Modal Jeu de plateforme Unity -->
+    <div class="portfolio-modal modal fade" id="projet-personnel-jeu-unity-solo" tabindex="-1" role="dialog"
+        aria-labelledby="projet-personnel-jeu-unity-solo-label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                </button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-center"
+                                    id="projet-personnel-jeu-unity-solo-label">Jeu d'aventure sur Unity
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-0">
+                                    <i> (2020) - Projet Personnel</i><br /><br />
+                                    Je souhaite réaliser un jeu d'aventure sous Unity.
+                                    J'ai choisi de réaliser un jeu à la première personne. <br />
+                                    Je n'ai pas encore beaucoup avancé dans la réalisation de ce dernier, mais
+                                    j'aimerais bien construire un scénario original, avec des éléments de gameplay
+                                    attirants et nouveaux. <br />
+                                    <br />
+                                    Mon idée principale serait de créer un jeu de plateforme/aventure, qui plongerait
+                                    le joueur dans des morceaux d'histoire. <br />
+                                    J'ai déjà eu l'occasion d'utiliser Unity lors de projets qui n'ont pas pu voir
+                                    le jour, mais aussi pour un projet sur un Robot : le but de ce jeu serait
+                                    de confirmer mes connaissances sur cet outil.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Portfolio Modal Jeu Multijoueur Unreal -->
+    <div class="portfolio-modal modal fade" id="projet-personnel-jeu-unreal-multijoueur" tabindex="-1" role="dialog"
+        aria-labelledby="projet-personnel-jeu-unreal-multijoueur-label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                </button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-center"
+                                    id="projet-personnel-jeu-unreal-multijoueur-label">Jeu Multijoueur sous Unreal
+                                    Engine
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-0">
+                                    <i> (2019 - 2020) - Projet Personnel</i><br /><br />
+                                    J'ai pour projet de réaliser un jeu en multijoueur sous Unreal Engine.
+                                    Le but de ce jeu serait de se battre entre joueurs dans des niveaux différents,
+                                    avec des mécaniques de jeux différentes.
+                                    J'ai choisi de faire un jeu à la troisième personne : c'est un style de jeu qui me
+                                    plaît, et qui permet de complètement voir ce que fait le joueur dans le jeu. <br />
+                                    Je n'ai pas décidé d'un thème précis : je me suis concentré sur l'avancement du jeu.
+                                    <br />
+                                    Pour l'instant, il n'est possible de se battre qu'avec un sabre : d'autres armes
+                                    seront
+                                    éventuellement ajoutées à l'avenir.<br />
+                                    Pour l'aspect multijoueur : j'utilise l'outil "
+                                    <a href="https://docs.unrealengine.com/en-US/Programming/Online/index.html"
+                                        target="_blank">Online Subsystem</a>
+                                    " conçu par Unreal Engine, plus particulièrement celui qui permet de déployer son
+                                    application sur
+                                    <a href="https://store.steampowered.com/" target="_blank">Steam</a>.
+                                    <br /><br />
+                                    Mes objectifs sont : <br />
+                                    - Pouvoir permettre aux joueurs de créer des parties et de rejoindre (pas de
+                                    serveurs
+                                    dédiés)<br />
+                                    - Mettre en place un système de lobby, où les joueurs s'attendent avant de lancer
+                                    une partie
+                                    (lobby créé par l'hôte de la partie)<br />
+                                    - Créer des maps, animations, particules, zones de dégâts et autres éléments du jeux
+                                    qui fonctionnent
+                                    et qui soient correctement répliqués entre le serveur et les clients<br />
+                                    - Avoir un ATH détaillé : système de chat écrit, temps restant, historique des
+                                    points,...
+                                    <br />
+                                    <br />
+                                    J'ai pu répondre à quasiment tous mes objectifs. Il me reste encore de la
+                                    maintenance à faire,
+                                    mais j'ai pu tester avec un ami qui possède Unreal Engine, et l'aspect multijoueur
+                                    est
+                                    fonctionnel.<br />
+                                    Le jeu n'est pas encore disponible : il n'est pas encore possible de choisir les
+                                    parties
+                                    en multijoueur que l'on veut rejoindre, ce qui est pour moi impossible à gérer sur
+                                    une plus
+                                    grande échelle (au moins 5 joueurs en simultanés qui veulent rejoindre différentes
+                                    parties)
+                                    <br />
+                                    <br />
+                                    Galerie : <br />
+                                    <i>à venir</i>
+                                </p>
+                                <!--PHOTO UNREAL ICI-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Experience Modals -->
+
+    <!-- Experience Modal Picture Organic Clothing -->
+    <div class="portfolio-modal modal fade" id="experience-picture" tabindex="-1" role="dialog"
+        aria-labelledby="experience-picture-label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                </button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h3 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-center"
+                                    id="experience-picture-label">Technicien Informatique pour Picture Organic Clothing
+                                </h3>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <!-- ?? -->
+
+                                <!-- Portfolio Modal - Text-->
+                                <p>
+                                <h4><i>Avril 2019 - Août 2019</i></h4>
+                                J'ai effectué mon stage de fin d'année d'IUT au sein de l'entreprise Picture Organic
+                                Clothing, à Gerzat (63360).<br />
+                                Ce fut pour moi l'occasion d'appliquer mes connaissances théoriques apprises
+                                pendant mon DUT, avec notamment :
+
+                                </p>
+
+                                <ul>
+
+                                    <li>Du développement web Front-end en <u>HTML / CSS</u> utilisant Bootstrap</li>
+                                    <li>Du développement web Back-end en <u>PHP</u></li>
+                                    <li>L'interaction avec une base de donnée en <u>SQL</u> (Microsoft SQL Server)</li>
+                                    <li>La découverte d'un logiciel d'intégration de données : <u>Talend</u></li>
+
+                                </ul>
+
+                                <p>
+                                    J'ai passé la majeure partie de mon stage à développer un site web interagissant
+                                    avec la base de données SQL.<br />
+                                    Le but était de créer une interface permettant l'ajout de fournisseurs, avec la
+                                    génération d'un fichier pour savoir quels fournisseurs étaient ajoutés. <br />
+                                    Il fallait également une page de connexion, limitant l'accès à ce site à certains
+                                    utilisateurs. <br />
+                                    J'ai donc pensé à faire un site web puisse que j'avais déjà réalisé un projet
+                                    répondant à tous ces critères, et faire une page web me laissait<br />
+                                    plus de choix au niveau de la personnalisation.<br />
+                                    J'ai pu également manipuler un serveur sous <u>Windows Server 2012</u>, ce que je
+                                    n'avais jamais fait auparavant. <br />
+                                    <br />
+                                    Suite à ce stage, j'ai été embauché en CDD du mois de juillet 2019 au mois d'août
+                                    2019 dans la même entreprise.<br />
+                                    J'ai pu réaliser davantage de tests sur le déploiement de mon site web en base de
+                                    production.<br />
+                                    <br />
+                                    J'ai eu l'occasion de me rendre sur le site de Picture Annecy pour installer de
+                                    nouveaux ordinateurs, et résoudre des problèmes existants. <br />
+                                </p>
+
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="js/intro.js"></script>
 </body>
 
 </html>
