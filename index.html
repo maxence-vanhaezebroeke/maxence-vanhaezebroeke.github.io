@@ -77,13 +77,19 @@
             <!-- About Section Content-->
             <div class="row">
                 <div class="col-lg-6 ml-auto">
-                    <p class="lead">Je m'appelle Maxence Vanhaezebroeke, j'ai 20 ans, et je suis en études
-                        d'informatiques
-                        à Clermont-Ferrand.<br /><br />
-                        Ayant obtenu mon DUT puis ma licence informatique à Clermont-Ferrand, je suis
-                        actuellement
-                        en première année d'un master informatique.
+                    <p class="lead">Je m'appelle Maxence Vanhaezebroeke, j'ai <span id="age"></span> ans, et je suis en études
+                        d'informatiques. <br /><br />
+                        J'ai obtenu mon DUT, ma licence puis ma première année de master informatique à Clermont-Ferrand.
+                        Je suis actuellement en deuxième année d'un master 3DIA au Puy-en-Velay.
                     </p>
+
+                    <script>
+                        var birthdayDate = new Date("April 28, 2000");
+                        var ageDif = Date.now() - birthdayDate;
+                        var ageDate = new Date(ageDif);
+                        document.getElementById("age").innerHTML = Math.abs(ageDate.getUTCFullYear() - 1970);
+                    </script>
+
                 </div>
                 <div class="col-lg-6 mr-auto">
                     <p class="lead">Je suis passionné par le développement et la conception de jeux vidéos.<br />
@@ -159,19 +165,6 @@
 
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal"
-                        data-target="#projet-personnel-jeu-unity-solo">
-                        <div
-                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white">Jeu de plateforme sous
-                                Unity
-                            </div>
-                        </div>
-                        <img class="img-fluid img-thumbnail" src="assets/img/thumbnails/parkour.svg" />
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal"
                         data-target="#projet-personnel-jeu-unreal-multijoueur">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -179,6 +172,18 @@
                                 Unreal Engine</div>
                         </div>
                         <img class="img-fluid img-thumbnail" src="assets/img/thumbnails/katana.svg" />
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal"
+                        data-target="#projet-personnel-jeu-unity-blackjack">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Jeu de blackjack sur Unity
+                            </div>
+                        </div>
+                        <img class="img-fluid img-thumbnail" src="assets/img/thumbnails/cards.svg" />
                     </div>
                 </div>
 
@@ -205,13 +210,24 @@
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#experience-picture">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white">Stage Assistant IT chez
+                            <div class="portfolio-item-caption-content text-center text-white">Stage Assistant IT pour
                                 Picture Organic Clothing</div>
                         </div>
                         <img class="img-fluid border border-light rounded" src="assets/img/thumbnails/computer.svg" />
                     </div>
                 </div>
 
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#experience-univr">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Stage / alternance développeur jeu vidéo
+                                pour Virtual Room <i>(UNIVR)</i>
+                            </div>
+                        </div>
+                        <img class="img-fluid border border-light rounded" src="assets/img/thumbnails/vr.svg" />
+                    </div>
+                </div>
 
 
 
@@ -566,58 +582,6 @@
         </div>
     </div>
 
-
-
-    <!-- Portfolio Modal Jeu de plateforme Unity -->
-    <div class="portfolio-modal modal fade" id="projet-personnel-jeu-unity-solo" tabindex="-1" role="dialog"
-        aria-labelledby="projet-personnel-jeu-unity-solo-label" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true"><i class="fa fa-times"></i></span>
-                </button>
-                <div class="modal-body">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-center"
-                                    id="projet-personnel-jeu-unity-solo-label">Jeu d'aventure sur Unity
-                                </h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <!-- Portfolio Modal - Image-->
-
-                                <!-- Portfolio Modal - Text-->
-                                <p class="mb-0">
-                                    <i> (2020) - Projet Personnel</i><br /><br />
-                                    Je souhaite réaliser un jeu d'aventure sous Unity.
-                                    J'ai choisi de réaliser un jeu à la première personne. <br />
-                                    Je n'ai pas encore beaucoup avancé dans la réalisation de ce dernier, mais
-                                    j'aimerais bien construire un scénario original, avec des éléments de gameplay
-                                    attirants et nouveaux. <br />
-                                    <br />
-                                    Mon idée principale serait de créer un jeu de plateforme/aventure, qui plongerait
-                                    le joueur dans des morceaux d'histoire. <br />
-                                    J'ai déjà eu l'occasion d'utiliser Unity lors de projets qui n'ont pas pu voir
-                                    le jour, mais aussi pour un projet sur un Robot : le but de ce jeu serait
-                                    de confirmer mes connaissances sur cet outil.
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
     <!-- Portfolio Modal Jeu Multijoueur Unreal -->
     <div class="portfolio-modal modal fade" id="projet-personnel-jeu-unreal-multijoueur" tabindex="-1" role="dialog"
         aria-labelledby="projet-personnel-jeu-unreal-multijoueur-label" aria-hidden="true">
@@ -694,7 +658,6 @@
                                     Galerie : <br />
                                     <br />
                                 </p>
-                                <!--PHOTO UNREAL ICI-->
 
                                 <a href="assets/img/portfolio/unreal-multi-1.png" target="_blank">
                                     <img class="img-fluid rounded mb-3" src="assets/img/portfolio/unreal-multi-1.png"
@@ -721,6 +684,71 @@
         </div>
     </div>
 
+
+    <!-- Portfolio Modal Jeu de blackjack Unity -->
+    <div class="portfolio-modal modal fade" id="projet-personnel-jeu-unity-blackjack" tabindex="-1" role="dialog"
+        aria-labelledby="projet-personnel-jeu-unity-blackjack-label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                </button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-center"
+                                    id="projet-personnel-jeu-unity-blackjack-label">Jeu de blackjack sur Unity
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-0">
+                                    <i> (2021) - Projet Personnel</i><br /><br />
+                                    J'ai réalisé un jeu sur Unity dans lequel il est possible de jouer au Blackjack. <br />
+                                    Mon but était de réaliser un petit jeu rapide sur Unity, en me concentrant sur 
+                                    la programmation, et de découvrir tous les points importants du développement sur ce moteur.
+                                    <br /> <br />
+                                    Voici un lien vers le projet : <br />
+                                    <i>Lien en cours d'intégration...</i>
+                                    <br /> <br />
+                                    J'ai utilisé des assets gratuit téléchargés sur le 
+                                    <a href="https://assetstore.unity.com/"
+                                    target="_blank">Unity Asset Store</a> pour représenter les cartes et la salle de jeu. <br />
+                                    J'ai créé un menu quand on arrive dans le jeu. <br />
+                                    En tant que joueur, nous disposons d'une interface pour intéragir avec la table : demander une carte, passer
+                                    son tour, etc.
+                                    La logique du blackjack et des cartes est fonctionnelle.
+                                    J'aimerai bien rajouter d'autres éléments : particules, animations, personnalisation, etc. <br />
+                                    Mais le jeu est fonctionnel, et je souhaite consacrer plus de temps à d'autres projets. <br />
+                                    <br />
+                                    Galerie :
+                                    <br /> <br /> 
+                                    <a href="assets/img/portfolio/unity-blackjack-1.png" target="_blank">
+                                        <img class="img-fluid rounded mb-3" src="assets/img/portfolio/unity-blackjack-1.png"
+                                            alt="Image jeu Unity 1" />
+                                    </a>
+
+                                    <a href="assets/img/portfolio/unity-blackjack-2.png" target="_blank">
+                                        <img class="img-fluid rounded mb-3" src="assets/img/portfolio/unity-blackjack-2.png"
+                                            alt="Image jeu Unity 2" />
+                                    </a>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Experience Modals -->
@@ -791,6 +819,74 @@
                                     nouveaux ordinateurs, et résoudre des problèmes existants. <br />
                                 </p>
 
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Experience Modal UNIVR -->
+    <div class="portfolio-modal modal fade" id="experience-univr" tabindex="-1" role="dialog"
+        aria-labelledby="experience-univr-label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                </button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h3 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-center"
+                                    id="experience-univr-label">Développeur jeu vidéo pour Virtual Room <i>(UNIVR)</i>
+                                </h3>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+
+                                <!-- Portfolio Modal - Text-->
+                                <h4><i>Mai 2021 - Août 2021 / alternance 2021 - 2022</i></h4> <br />
+                                <p>
+                                    J'ai effectué mon stage de première année de master au sein de l'entreprise UNIVR,
+                                    à Paris. (75012)<br />
+                                    C'est dans cette même entreprise que j'ai réalisé mon alternance au cours de mon Master 2 3DIA. <br />
+                                    <br /> 
+                                    Les outils que j'ai pu utiliser :
+                                </p>
+                                <ul>
+                                    <li><u>Perforce</u> (gestionnaire de version)</li>
+                                    <li><u>Unreal Engine 4.20 / 4.23</u></li>
+                                    <li><u>Unity 2020.3</u></li>
+                                    <li><u>Microsoft Visual Studio</u> pour le développement C++ / C# </li>
+                                </ul>
+                                J'ai pu intervenir sur différentes tâches, à savoir :
+                                <ul>
+                                    <li> Développement d'un jeu en <b>réalité virtuelle multijoueur</b> sur Unreal Engine </li>
+                                    <li> Développement d'un jeu en <b>réalité virtuelle multijoueur</b> sur Unity </li>
+                                    <li> Tâches de maintenance sur un projet déjà existant sous Unreal Engine </li>
+                                </ul>
+
+                                <p>
+                                    Voici le site de <a href="https://www.virtual-room.com/" target="_blank"> Virtual Room</a>. <br />
+                                    L'entreprise propose des expériences à réaliser de 2 à 4 joueurs en réalité virtuelle.
+                                    Il s'agit de scénarios à terminer dans le temps imparti. <br />
+                                    Chaque salle Virtual Room dispose de zones de jeu individuelle (3 mètres par 3), dans laquelle
+                                    vous serez libre de mouvement et devrez coopérer avec votre équipe. <br />
+                                    <br />
+                                    C'est pour moi ma première expérience dans le développement du jeu vidéo dans une entreprise. <br />
+                                    J'ai pu m'appuyer sur des bases acquises lors du développement de mes projets personnels pour rapidement
+                                    prendre en main les différents outils, et comprendre le fonctionnement des projets existants. <br />
+                                    C'est un plaisir de travailler dans une équipe aussi conviviale, dans laquelle j'ai pu pleinement
+                                    m'investir et prendre part à des tâches diverses. <br />
                                 </p>
 
                             </div>
