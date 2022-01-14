@@ -10031,9 +10031,9 @@ h3 {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #2c3e50;
+  background-color: #1a1717;
   border-radius: 1rem;
-  border-color: #2c3e50 !important;
+  border-color: #1a1717 !important;
 }
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
@@ -10042,7 +10042,7 @@ h3 {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #2c3e50 !important;
+  color: #1a1717 !important;
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
@@ -10096,13 +10096,13 @@ h3 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #d63232;
+  color: #D37402;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #d63232;
+  color: #D37402;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10124,11 +10124,11 @@ h3 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #d63232;
+    background: #D37402;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #d63232;
+    background: #D37402;
   }
 
   #mainNav.navbar-shrink {
@@ -10181,7 +10181,7 @@ h3 {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: #d63232;
+  background-color: #1a1717;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -10207,7 +10207,7 @@ h3 {
   top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: #d63232;
+  color: #D37402;
   opacity: 1;
 }
 
@@ -10255,22 +10255,4 @@ h3 {
 
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef;
-}
-
-.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #2c3e50;
-  color: #fff;
-}
-
-.copyright {
-  background-color: #1a252f;
-}
-
-
-/* added by me */
-
-.padding-top-calc-custom {
-  padding-top: calc(6rem + 74px);
 }

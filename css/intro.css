@@ -1,3 +1,17 @@
+/*
+ * CSS for my intro animation
+ */
+
+:root {
+    /* Intro with red values (old) : 
+    --default-color: #d63232;
+    --clicked-color: #a72727;
+    */
+    /* Orange values */
+    --default-color: #D37402;
+    --clicked-color: #a05801;
+}
+
 #loader-wrapper {
     position: fixed;
     display: flex;
@@ -54,11 +68,11 @@
     padding: 1.7vh 4vh;
     font-size: 20px;
     outline: none;
-    color: #d63232;
+    color: var(--default-color);
     background-color: transparent;
-    border: 1px solid #d63232;
+    border: 1px solid var(--default-color);
     border-radius: 15px;
-    box-shadow: 0 .3vw #d63232;
+    box-shadow: 0 .3vw var(--default-color);
 
     animation: .4s button-click cubic-bezier(0,0,.58,1);
     animation-delay: 1s;
@@ -68,19 +82,19 @@
 @keyframes button-click {
     0% {
         color: black;
-        background-color: #d63232;
+        background-color: var(--default-color);
         transform: translateY(0px);
     }
     50%{
         color: black;
-        background-color: #d63232;
-        box-shadow: 0 .1vw #a72727;
+        background-color: var(--default-color);
+        box-shadow: 0 .1vw var(--clicked-color);
         transform: translateY(5px);
     }
     100%{
-        color: #d63232;
+        color: var(--default-color);
         background-color: transparent;
-        box-shadow: 0 .3vw #a72727;
+        box-shadow: 0 .3vw var(--clicked-color);
     }
 }
 

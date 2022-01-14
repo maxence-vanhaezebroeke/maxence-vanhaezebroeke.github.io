@@ -1,0 +1,35 @@
+/*
+ * Custom css, where I can implement my own styles
+ */
+
+/*
+ * styles.css lines where color is used and should match most
+ * of the background colors :
+ * 10099/10105/10127/10131/10184/10210/10045
+ */
+
+.bg-orange {
+    background-color: #D37402 !important;
+}
+
+.bg-dark_black {
+    background-color: #1a1717 !important;
+}
+
+.padding-top-calc-custom {
+    padding-top: calc(6rem + 74px);
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:67%;
+}
+
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: white;
+    color: #fff;
+}
