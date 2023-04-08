@@ -80,6 +80,7 @@
     box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
 }
 
+/* Facebook color hover
 .social_media ul li:hover:nth-child(1) a {
     background: #3b5999;
 }
@@ -90,6 +91,23 @@
 
 .social_media ul li:hover:nth-child(1) a:after {
     background: #4a69ad;
+}
+*/
+
+.social_media ul li:hover:nth-child(1) a {
+    background: #151515;
+}
+
+.social_media ul li:hover:nth-child(1) a:before {
+    background: #383838;
+}
+
+.social_media ul li:hover:nth-child(1) a:after {
+    background: #434343;
+}
+
+.social_media ul li:hover .social-media-unity {
+    content: url("/assets/img/unity-logo-blanc.svg")
 }
 
 .social_media ul li:hover:nth-child(2) a {
