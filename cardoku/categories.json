@@ -1,0 +1,117 @@
+[
+  {
+    "id": "country_germany",
+    "label": "Made in Germany",
+    "description": "Looking for a brand headquartered in Germany.",
+    "rule": { "type": "country", "value": "Germany" }
+  },
+  {
+    "id": "has_ev",
+    "label": "Electric vehicle maker",
+    "description": "Looking for a brand that builds or sells electric vehicles (EV tag).",
+    "rule": { "type": "has_ev" }
+  },
+  {
+    "id": "tag_le_mans",
+    "label": "Participated at Le Mans",
+    "description": "Looking for a brand that has participated in the 24 Hours of Le Mans.",
+    "rule": { "type": "tag", "value": "LeMans" }
+  },
+  {
+    "id": "founded_before_1930",
+    "label": "Founded before 1930",
+    "description": "Looking for a brand founded before the year 1930.",
+    "rule": { "type": "founded_before", "year": 1930 }
+  },
+  {
+    "id": "tag_f1",
+    "label": "F1 involvement",
+    "description": "Looking for a brand with Formula 1 involvement.",
+    "rule": { "type": "tag", "value": "F1" }
+  },
+  {
+    "id": "founded_from_1930",
+    "label": "Founded from 1930 onward",
+    "description": "Looking for a brand founded in 1930 or later.",
+    "rule": { "type": "founded_from", "year": 1930 }
+  },
+  {
+    "id": "logo_with_animal",
+    "label": "Logo with an animal",
+    "description": "Logo that features an animal",
+    "rule": { "type": "tag", "value": "LogoAnimal" }
+  },
+  {
+    "id": "asia_continent",
+    "label": "Asian brand",
+    "description": "Originates from the Asia continent",
+    "rule": { "type": "continent", "value": "asia" }
+  },
+  {
+    "id": "europe_continent",
+    "label": "European brand",
+    "description": "Originates from the European continent",
+    "rule": { "type": "continent", "value": "europe" }
+  },
+  {
+    "id": "america_continent",
+    "label": "American brand",
+    "description": "Originates from the America continent",
+    "rule": { "type": "continent", "value": "america" }
+  },
+  {
+    "id": "twelve_cylinders_engine",
+    "label": "12+ cylinders engine",
+    "description": "Has ever produced an engine that is at least 12 cylinders.",
+    "rule": { "type": "tag", "value": "12pluscylinders" }
+  },
+  {
+    "id": "rallye",
+    "label": "WRC involvement",
+    "description": "Looking for a brand that has participate to the WRC.",
+    "rule": { "type": "tag", "value": "WRC"}
+  },
+
+  {
+    "id": "tag_pikes_peak",
+    "label": "Pikes Peak challenger",
+    "description": "Looking for a brand that has officially raced or set records at the Pikes Peak International Hill Climb.",
+    "rule": { "type": "tag", "value": "PikesPeak" }
+  },
+  {
+    "id": "tag_dakar",
+    "label": "Dakar Rally winner",
+    "description": "Looking for a brand that has taken an overall victory in the historic Dakar Rally.",
+    "rule": { "type": "tag", "value": "Dakar" }
+  },
+  {
+    "id": "tag_popup_headlights",
+    "label": "Pop-up headlights era",
+    "description": "Looking for a brand that manufactured an iconic production car featuring pop-up headlights.",
+    "rule": { "type": "tag", "value": "PopUpHeadlights" }
+  },
+  {
+  "id": "tag_wordmark_logo",
+  "label": "Wordmark logo",
+  "description": "Looking for a brand whose official logo is purely text/the company name itself, with no standalone symbol or emblem.",
+  "rule": { "type": "tag", "value": "wordmarklogo" }
+  },
+  {
+  "id": "starts_with_m",
+  "label": "Starts with the letter 'M'",
+  "description": "Looking for a brand whose name begins with the letter M.",
+  "rule": { "type": "starts_with", "value": "m" }
+  },
+  {
+    "id": "four_letter_brand",
+    "label": "Exactly 4 letters long",
+    "description": "Looking for a car manufacturer whose name has exactly four letters.",
+    "rule": { "type": "letter_count", "value": 4 }
+  },
+  {
+    "id": "starts_with_a",
+    "label": "Starts with the letter 'A'",
+    "description": "Looking for a brand whose name begins with the letter A.",
+    "rule": { "type": "starts_with", "value": "a" }
+  }
+]

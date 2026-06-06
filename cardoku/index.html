@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#1c1c1e" />
+  <title data-i18n="meta.title">CarDoku — Daily Grid</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <canvas id="confetti-canvas" class="confetti-canvas" aria-hidden="true"></canvas>
+
+  <div class="app">
+    <header class="header">
+      <div class="header__top">
+        <div class="header__brand">
+          <span class="header__logo" aria-hidden="true">◈</span>
+          <h1>CarDoku</h1>
+        </div>
+        <div class="header__actions">
+          <button type="button" class="btn-how-to-play" id="btn-how-to-play" data-i18n="howToPlay.btn">How to play</button>
+          <div class="lang-switch" role="group" aria-label="Language">
+            <button type="button" class="lang-switch__btn" id="btn-lang-fr" data-lang="fr">FR</button>
+            <button type="button" class="lang-switch__btn" id="btn-lang-en" data-lang="en">EN</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="puzzle-meta" aria-label="Puzzle info">
+      <span class="puzzle-meta__badge" data-i18n="puzzle.badge">Daily Puzzle</span>
+      <span class="puzzle-meta__date" id="puzzle-date"></span>
+    </section>
+
+    <main class="grid-wrapper">
+      <div class="grid" id="game-grid" role="grid" aria-label="3 by 3 car brand puzzle">
+        <!-- Built by script.js -->
+      </div>
+      <button type="button" class="btn-show-answers" id="btn-show-answers" data-i18n="btn.showAnswers">
+        Show the answers
+      </button>
+    </main>
+
+    <aside class="score-panel" aria-live="polite">
+      <div class="score-panel__item">
+        <span class="score-panel__label" data-i18n="score.label">Score</span>
+        <span class="score-panel__value" id="total-score">0</span>
+      </div>
+      <div class="score-panel__item">
+        <span class="score-panel__label" data-i18n="score.solved">Solved</span>
+        <span class="score-panel__value" id="cells-solved">0 / 9</span>
+      </div>
+    </aside>
+
+    <section class="about-section">
+      <h3 class="about-section__title">About</h3>
+      <p class="about-section__text">Hey, thanks for playing ! Feel free to contact me at maxence.vanhaezebroeke@gmail.com - personnal website : <a href="https://maxence.vanhaezebroeke.com" target="_blank">maxence.vanhaezebroeke.com</a>.</p>
+      <br /> <br />
+      <p class="about-section__text">© 2026 Maxence Vanhaezebroeke. All rights reserved. Unauthorized reproduction, redistribution, or commercial use is prohibited.</p>
+      <p class="about-section__text">Trademark Notice - All company names, trademarks, and registered trademarks featured on this website are the property of their respective owners. This website is an independent puzzle website and is not affiliated with, endorsed by, sponsored by, or associated with any company or trademark owner mentioned herein. Company names and factual information are used solely for identification and entertainment purposes.</p>
+    </section>
+
+  <!-- How to play modal -->
+  <div class="modal hidden" id="how-to-play-modal" role="dialog" aria-modal="true" aria-labelledby="how-to-play-title">
+    <div class="modal__backdrop" data-close-how-to-play tabindex="-1"></div>
+    <div class="modal__panel">
+      <header class="modal__header">
+        <h2 id="how-to-play-title" data-i18n="howToPlay.title">How to play</h2>
+        <button type="button" class="modal__close" data-close-how-to-play data-i18n-aria="btn.close" aria-label="Close">&times;</button>
+      </header>
+      <ul class="how-to-play__list">
+        <li data-i18n="header.subtitle">Match car brands to every row and column clue.</li>
+        <li data-i18n="footer.bothClues">Each cell must satisfy both its row and column category.</li>
+        <li data-i18n="hint.tapClue">Tap a row or column label for a hint about that clue.</li>
+        <li class="i18n-penalty">Wrong guesses cost 20 points.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal hidden" id="give-up-modal" role="dialog" aria-modal="true" aria-labelledby="give-up-title">
+    <div class="modal__backdrop" data-close-give-up tabindex="-1"></div>
+    <div class="modal__panel modal__panel--compact">
+      <header class="modal__header">
+        <h2 id="give-up-title" data-i18n="giveUp.title">Show the answers?</h2>
+        <button type="button" class="modal__close" data-close-give-up data-i18n-aria="btn.close" aria-label="Close">&times;</button>
+      </header>
+      <p class="give-up-modal__body" id="give-up-body1"></p>
+      <p class="give-up-modal__body give-up-modal__body--muted" data-i18n="giveUp.body2">
+        Unsolved tiles get a magnifying glass — tap to see every brand that could fit.
+        Your share grid still shows empty squares (⬛) for those cells.
+      </p>
+      <div class="give-up-modal__actions">
+        <button type="button" class="btn btn--primary" id="btn-give-up-confirm" data-i18n="giveUp.confirm">Yes, show answers</button>
+        <button type="button" class="btn btn--ghost" data-close-give-up data-i18n="giveUp.cancel">Keep playing</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="win-overlay hidden" id="win-overlay" role="dialog" aria-modal="true" aria-labelledby="win-title">
+    <div class="win-overlay__panel">
+      <h2 class="win-overlay__title" id="win-title" data-i18n="win.title">You won!</h2>
+      <p class="win-overlay__score">
+        <span data-i18n="win.finalScore">Final score:</span>
+        <span id="win-final-score">0</span>
+      </p>
+      <p class="win-overlay__stats hidden" id="win-stats"></p>
+      <div class="share-block">
+        <p class="share-block__label" data-i18n="win.shareLabel">Share your grid</p>
+        <pre class="share-preview" id="share-preview" aria-label="Shareable result text"></pre>
+        <div class="share-actions">
+          <button type="button" class="btn btn--primary" id="btn-share-copy" data-i18n="win.copyResult">Copy result</button>
+        </div>
+      </div>
+      <button type="button" class="btn btn--ghost" id="btn-win-close" data-i18n="win.close">Close</button>
+    </div>
+  </div>
+
+  <div class="modal hidden" id="info-modal" role="dialog" aria-modal="true" aria-labelledby="info-modal-title">
+    <div class="modal__backdrop" data-close-info tabindex="-1"></div>
+    <div class="modal__panel modal__panel--compact">
+      <header class="modal__header">
+        <h2 id="info-modal-title" data-i18n="info.title">Clue</h2>
+        <button type="button" class="modal__close" data-close-info data-i18n-aria="btn.close" aria-label="Close">&times;</button>
+      </header>
+      <p class="info-modal__body" id="info-modal-body"></p>
+    </div>
+  </div>
+
+  <div class="modal hidden" id="answers-modal" role="dialog" aria-modal="true" aria-labelledby="answers-modal-title">
+    <div class="modal__backdrop" data-close-answers tabindex="-1"></div>
+    <div class="modal__panel modal__panel--answers">
+      <header class="modal__header">
+        <h2 id="answers-modal-title" data-i18n="answers.title">Possible answers</h2>
+        <button type="button" class="modal__close" data-close-answers data-i18n-aria="btn.close" aria-label="Close">&times;</button>
+      </header>
+      <p class="modal__clues" id="answers-modal-clues"></p>
+      <p class="answers-modal__note" data-i18n="answers.note">Potential score if you had solved this cell (not added to your total).</p>
+      <ul class="answers-list" id="answers-list"></ul>
+      <p class="answers-empty hidden" id="answers-empty" data-i18n="answers.empty">No brand matches both clues for this cell.</p>
+    </div>
+  </div>
+
+  <div class="modal hidden" id="cell-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal__backdrop" data-close-modal tabindex="-1"></div>
+    <div class="modal__panel modal__panel--picker">
+      <header class="modal__header">
+        <h2 id="modal-title" data-i18n="pick.title">Pick a brand</h2>
+        <button type="button" class="modal__close" data-close-modal data-i18n-aria="btn.close" aria-label="Close">&times;</button>
+      </header>
+      <p class="modal__clues" id="modal-clues"></p>
+      <div class="search">
+        <label class="visually-hidden" for="brand-search" data-i18n="pick.searchLabel">Search brands</label>
+        <input
+          type="search"
+          id="brand-search"
+          class="search__input"
+          //data-i18n-placeholder="pick.placeholder"
+          placeholder="Type at least 3 letters…"
+          autocomplete="off"
+          spellcheck="false"
+          enterkeyhint="search"
+        />
+        <p class="search__hint" id="search-hint"></p>
+        <ul class="search__results" id="search-results" role="listbox"></ul>
+      </div>
+      <p class="modal__feedback hidden" id="modal-feedback" role="status"></p>
+    </div>
+  </div>
+
+  <script src="./script.js" type="module"></script>
+</body>
+</html>

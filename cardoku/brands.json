@@ -1,0 +1,1196 @@
+[
+  {
+    "name": "Toyota",
+    "country": "Japan",
+    "continent": "asia",
+    "founded_year": 1937,
+    "fame_score": 5,
+    "tags": ["Hybrid", "WRC", "EV", "PikesPeak", "12pluscylinders", "Dakar", "PopUpHeadlights", "LeMans", "Dakar"]
+  },
+  {
+    "name": "Ferrari",
+    "country": "Italy",
+    "continent": "europe",
+    "founded_year": 1939,
+    "fame_score": 5,
+    "tags": ["LeMans", "F1", "EV", "12pluscylinders", "PopUpHeadlights", "LogoAnimal"]
+  },
+  {
+    "name": "Peugeot",
+    "country": "France",
+    "continent": "europe",
+    "founded_year": 1810,
+    "fame_score": 3,
+    "tags": ["WRC", "LeMans", "EV", "PikesPeak", "Dakar", "LogoAnimal"]
+  },
+  {
+    "name": "Honda",
+    "country": "Japan",
+    "continent": "asia",
+    "founded_year": 1948,
+    "fame_score": 5,
+    "tags": ["F1", "Hybrid", "PopUpHeadlights", "EV", "MidEngine"]
+  },
+
+
+  {
+    "name": "Volkswagen",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1937,
+    "fame_score": 5,
+    "tags": ["EV", "VWG", "WRC", "PikesPeak", "Dakar"]
+  },
+  {
+    "name": "Renault",
+    "country": "France",
+    "continent": "europe",
+    "founded_year": 1899,
+    "fame_score": 5,
+    "tags": ["EV", "F1", "WRC", "LeMans", "FounderName", "Pre1920", "Dakar"]
+  },
+  {
+    "name": "Citroën",
+    "country": "France",
+    "continent": "europe",
+    "founded_year": 1919,
+    "fame_score": 5,
+    "tags": ["EV", "Stellantis", "WRC", "FounderName", "Pre1920", "Dakar"]
+  },
+  {
+    "name": "Fiat",
+    "country": "Italy",
+    "continent": "europe",
+    "founded_year": 1899,
+    "fame_score": 5,
+    "tags": ["EV", "Stellantis", "AcronymName", "Pre1920", "WordmarkLogo", "Dakar", "PopUpHeadlights"]
+  },
+  {
+    "name": "Opel",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1899,
+    "fame_score": 5,
+    "tags": ["EV", "Stellantis", "FounderName", "Pre1920", "Dakar"]
+  },
+  {
+    "name": "Volvo",
+    "country": "Sweden",
+    "continent": "europe",
+    "founded_year": 1927,
+    "fame_score": 5,
+    "tags": ["EV", "WordmarkLogo", "Dakar"]
+  },
+  {
+    "name": "Skoda",
+    "country": "Czech Republic",
+    "continent": "europe",
+    "founded_year": 1895,
+    "fame_score": 5,
+    "tags": ["EV", "VWG", "WRC", "FounderName", "Pre1920"]
+  },
+  {
+    "name": "SEAT",
+    "country": "Spain",
+    "continent": "europe",
+    "founded_year": 1950,
+    "fame_score": 5,
+    "tags": ["EV", "VWG", "AcronymName", "Dakar"]
+  },
+  {
+    "name": "Dacia",
+    "country": "Romania",
+    "continent": "europe",
+    "founded_year": 1966,
+    "fame_score": 5,
+    "tags": ["EV", "WordmarkLogo"]
+  },
+  {
+    "name": "Nissan",
+    "country": "Japan",
+    "continent": "asia",
+    "founded_year": 1933,
+    "fame_score": 5,
+    "tags": ["EV", "WordmarkLogo", "LeMans", "PopUpHeadlights", "Dakar"]
+  },
+  {
+    "name": "Mazda",
+    "country": "Japan",
+    "continent": "asia",
+    "founded_year": 1920,
+    "fame_score": 5,
+    "tags": ["EV", "LeMans", "RotaryEngine", "MidEngine", "PopUpHeadlights", "Dakar"]
+  },
+  {
+    "name": "Hyundai",
+    "country": "South Korea",
+    "continent": "asia",
+    "founded_year": 1967,
+    "fame_score": 5,
+    "tags": ["EV", "WRC", "PikesPeak"]
+  },
+  {
+    "name": "Kia",
+    "country": "South Korea",
+    "continent": "asia",
+    "founded_year": 1944,
+    "fame_score": 5,
+    "tags": ["EV", "WordmarkLogo", "Dakar"]
+  },
+  {
+    "name": "Suzuki",
+    "country": "Japan",
+    "continent": "asia",
+    "founded_year": 1909,
+    "fame_score": 5,
+    "tags": ["FounderName", "Pre1920", "PikesPeak", "Dakar"]
+  },
+  {
+    "name": "Mitsubishi",
+    "country": "Japan",
+    "continent": "asia",
+    "founded_year": 1917,
+    "fame_score": 5,
+    "tags": ["EV", "WRC", "Pre1920", "Dakar", "PopUpHeadlights"]
+  },
+  {
+    "name": "Subaru",
+    "country": "Japan",
+    "continent": "asia",
+    "founded_year": 1953,
+    "fame_score": 5,
+    "tags": ["EV", "WRC", "BoxerEngine", "PikesPeak", "PopUpHeadlights", "Dakar"]
+  },
+  {
+    "name": "Ford",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1903,
+    "fame_score": 5,
+    "tags": ["EV", "WRC", "LeMans", "F1", "FounderName", "Pre1920", "WordmarkLogo", "MidEngine", "PikesPeak", "PopUpHeadlights", "Dakar"]
+  },
+  {
+    "name": "Chevrolet",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1911,
+    "fame_score": 5,
+    "tags": ["EV", "FounderName", "Pre1920", "MidEngine", "PopUpHeadlights", "LeMans", "PikesPeak", "Dakar"]
+  },
+  {
+    "name": "Jeep",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1943,
+    "fame_score": 5,
+    "tags": ["EV", "WordmarkLogo", "Dakar"]
+  },
+  {
+    "name": "Tesla",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 2003,
+    "fame_score": 5,
+    "tags": ["EV", "Post1980", "WordmarkLogo", "PikesPeak"]
+  },
+  {
+    "name": "Dodge",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1900,
+    "fame_score": 5,
+    "tags": ["FounderName", "Pre1920", "EV", "PopUpHeadlights", "Dakar"]
+  },
+  {
+    "name": "RAM",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 2009,
+    "fame_score": 5,
+    "tags": ["Post1980", "WordmarkLogo", "Stellantis", "LogoAnimal", "EV"]
+  },
+  {
+    "name": "BMW",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1916,
+    "fame_score": 4,
+    "tags": ["EV", "F1", "AcronymName", "Pre1920", "12pluscylinders", "PopUpHeadlights", "LeMans", "MidEngine", "PikesPeak", "Dakar"]
+  },
+  {
+    "name": "Mercedes-Benz",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1926,
+    "fame_score": 4,
+    "tags": ["EV", "F1", "LeMans", "WRC", "12pluscylinders", "MidEngine", "Dakar"]
+  },
+  {
+    "name": "Audi",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1909,
+    "fame_score": 4,
+    "tags": ["EV", "VWG", "WRC", "LeMans", "12pluscylinders", "MidEngine", "Pre1920", "PikesPeak", "Dakar", "F1"]
+  },
+  {
+    "name": "Porsche",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1931,
+    "fame_score": 4,
+    "tags": ["EV", "VWG", "LeMans", "F1", "WRC", "BoxerEngine", "MidEngine", "FounderName", "LogoAnimal", "PikesPeak", "Dakar", "PopUpHeadlights", "12pluscylinders"]
+  },
+  {
+    "name": "Mini",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1969,
+    "fame_score": 4,
+    "tags": ["EV", "WRC", "Dakar"]
+  },
+  {
+    "name": "Smart",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1994,
+    "fame_score": 4,
+    "tags": ["EV", "Post1980"]
+  },
+  {
+    "name": "Lexus",
+    "country": "Japan",
+    "continent": "asia",
+    "founded_year": 1989,
+    "fame_score": 4,
+    "tags": ["EV", "Post1980", "WordmarkLogo"]
+  },
+  {
+    "name": "Infiniti",
+    "country": "Japan",
+    "continent": "asia",
+    "founded_year": 1989,
+    "fame_score": 4,
+    "tags": ["EV", "Post1980"]
+  },
+  {
+    "name": "Acura",
+    "country": "Japan",
+    "continent": "asia",
+    "founded_year": 1986,
+    "fame_score": 4,
+    "tags": ["EV", "Post1980", "MidEngine", "PopUpHeadlights", "PikesPeak"]
+  },
+  {
+    "name": "Genesis",
+    "country": "South Korea",
+    "continent": "asia",
+    "founded_year": 2015,
+    "fame_score": 4,
+    "tags": ["EV", "Post1980"]
+  },
+  {
+    "name": "Land Rover",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1948,
+    "fame_score": 4,
+    "tags": ["EV", "WordmarkLogo", "Dakar"]
+  },
+  {
+    "name": "Jaguar",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1922,
+    "fame_score": 4,
+    "tags": ["EV", "LeMans", "F1", "12pluscylinders", "LogoAnimal", "MidEngine", "Dakar"]
+  },
+  {
+    "name": "Alfa Romeo",
+    "country": "Italy",
+    "continent": "europe",
+    "founded_year": 1910,
+    "fame_score": 4,
+    "tags": ["EV", "F1", "LeMans", "LogoAnimal", "Pre1920", "MidEngine", "Dakar"]
+  },
+  {
+    "name": "Cadillac",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1902,
+    "fame_score": 4,
+    "tags": ["EV", "Pre1920", "12pluscylinders", "LeMans"]
+  },
+  {
+    "name": "Lincoln",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1917,
+    "fame_score": 4,
+    "tags": ["EV", "FounderName", "Pre1920"]
+  },
+  {
+    "name": "Buick",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1899,
+    "fame_score": 4,
+    "tags": ["FounderName", "Pre1920"]
+  },
+  {
+    "name": "Chrysler",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1925,
+    "fame_score": 4,
+    "tags": ["EV", "Stellantis", "FounderName"]
+  },
+  {
+    "name": "DS Automobiles",
+    "country": "France",
+    "continent": "europe",
+    "founded_year": 2014,
+    "fame_score": 4,
+    "tags": ["EV", "Stellantis", "Post1980", "AcronymName"]
+  },
+  {
+    "name": "Polestar",
+    "country": "Sweden",
+    "continent": "europe",
+    "founded_year": 1996,
+    "fame_score": 4,
+    "tags": ["EV", "Post1980"]
+  },
+  {
+    "name": "Lamborghini",
+    "country": "Italy",
+    "continent": "europe",
+    "founded_year": 1963,
+    "fame_score": 3,
+    "tags": ["EV", "VWG", "12pluscylinders", "MidEngine", "FounderName", "LogoAnimal", "PopUpHeadlights", "Dakar"]
+  },
+  {
+    "name": "Maserati",
+    "country": "Italy",
+    "continent": "europe",
+    "founded_year": 1914,
+    "fame_score": 3,
+    "tags": ["EV", "Stellantis", "F1", "MidEngine", "FounderName", "Pre1920", "12pluscylinders"]
+  },
+  {
+    "name": "Pagani",
+    "country": "Italy",
+    "continent": "europe",
+    "founded_year": 1992,
+    "fame_score": 3,
+    "tags": ["Post1980", "12pluscylinders", "MidEngine", "FounderName"]
+  },
+  {
+    "name": "Aston Martin",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1913,
+    "fame_score": 3,
+    "tags": ["EV", "F1", "LeMans", "12pluscylinders", "MidEngine", "FounderName", "Pre1920"]
+  },
+  {
+    "name": "McLaren",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1963,
+    "fame_score": 3,
+    "tags": ["EV", "Post1980", "F1", "LeMans", "MidEngine", "FounderName"]
+  },
+  {
+    "name": "Bentley",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1919,
+    "fame_score": 3,
+    "tags": ["VWG", "Pre1920", "LeMans", "FounderName", "12pluscylinders", "PikesPeak"]
+  },
+  {
+    "name": "Rolls-Royce",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1906,
+    "fame_score": 3,
+    "tags": ["Pre1920", "FounderName", "12pluscylinders", "WordmarkLogo", "EV", "Dakar"]
+  },
+  {
+    "name": "Lotus",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1948,
+    "fame_score": 3,
+    "tags": ["EV", "F1", "LeMans", "MidEngine", "FounderName", "PopUpHeadlights"]
+  },
+  {
+    "name": "Morgan",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1910,
+    "fame_score": 3,
+    "tags": ["Pre1920", "FounderName"]
+  },
+  {
+    "name": "TVR",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1946,
+    "fame_score": 3,
+    "tags": ["FounderName", "WordmarkLogo"]
+  },
+  {
+    "name": "Caterham",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1973,
+    "fame_score": 3,
+    "tags": ["WordmarkLogo"]
+  },
+  {
+    "name": "Bugatti",
+    "country": "France",
+    "continent": "europe",
+    "founded_year": 1909,
+    "fame_score": 3,
+    "tags": ["VWG", "Pre1920", "LeMans", "FounderName", "12pluscylinders", "MidEngine"]
+  },
+  {
+    "name": "Alpine",
+    "country": "France",
+    "continent": "europe",
+    "founded_year": 1955,
+    "fame_score": 3,
+    "tags": ["EV", "F1", "WRC", "LeMans", "MidEngine"]
+  },
+  {
+    "name": "Koenigsegg",
+    "country": "Sweden",
+    "continent": "europe",
+    "founded_year": 1994,
+    "fame_score": 3,
+    "tags": ["Post1980", "FounderName", "MidEngine"]
+  },
+  {
+    "name": "Rimac",
+    "country": "Croatia",
+    "continent": "europe",
+    "founded_year": 2009,
+    "fame_score": 3,
+    "tags": ["EV", "Post1980", "FounderName", "MidEngine"]
+  },
+  {
+    "name": "Cupra",
+    "country": "Spain",
+    "continent": "europe",
+    "founded_year": 2018,
+    "fame_score": 3,
+    "tags": ["EV", "VWG", "Post1980"]
+  },
+  {
+    "name": "Shelby",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1962,
+    "fame_score": 3,
+    "tags": ["LeMans", "FounderName", "LogoAnimal"]
+  },
+  {
+    "name": "BYD",
+    "country": "China",
+    "continent": "asia",
+    "founded_year": 1995,
+    "fame_score": 2,
+    "tags": ["EV", "Post1980", "AcronymName", "WordmarkLogo"]
+  },
+  {
+    "name": "NIO",
+    "country": "China",
+    "continent": "asia",
+    "founded_year": 2014,
+    "fame_score": 2,
+    "tags": ["EV", "Post1980", "WordmarkLogo"]
+  },
+  {
+    "name": "Geely",
+    "country": "China",
+    "continent": "asia",
+    "founded_year": 1986,
+    "fame_score": 2,
+    "tags": ["EV", "Post1980", "WordmarkLogo"]
+  },
+  {
+    "name": "Zeekr",
+    "country": "China",
+    "continent": "asia",
+    "founded_year": 2021,
+    "fame_score": 2,
+    "tags": ["EV", "Post1980", "WordmarkLogo"]
+  },
+  {
+    "name": "XPeng",
+    "country": "China",
+    "continent": "asia",
+    "founded_year": 2014,
+    "fame_score": 2,
+    "tags": ["EV", "Post1980", "FounderName"]
+  },
+  {
+    "name": "Lynk & Co",
+    "country": "China",
+    "continent": "asia",
+    "founded_year": 2016,
+    "fame_score": 2,
+    "tags": ["EV", "Post1980", "WordmarkLogo"]
+  },
+  {
+    "name": "Hongqi",
+    "country": "China",
+    "continent": "asia",
+    "founded_year": 1958,
+    "fame_score": 2,
+    "tags": ["EV", "WordmarkLogo"]
+  },
+  {
+    "name": "Great Wall",
+    "country": "China",
+    "continent": "asia",
+    "founded_year": 1984,
+    "fame_score": 2,
+    "tags": ["EV", "Post1980", "WordmarkLogo"]
+  },
+  {
+    "name": "MG",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1924,
+    "fame_score": 2,
+    "tags": ["EV", "AcronymName"]
+  },
+  {
+    "name": "Daihatsu",
+    "country": "Japan",
+    "continent": "asia",
+    "founded_year": 1907,
+    "fame_score": 2,
+    "tags": ["Pre1920", "Dakar"]
+  },
+  {
+    "name": "Isuzu",
+    "country": "Japan",
+    "continent": "asia",
+    "founded_year": 1916,
+    "fame_score": 2,
+    "tags": ["Pre1920", "WordmarkLogo", "Dakar"]
+  },
+  {
+    "name": "Mitsuoka",
+    "country": "Japan",
+    "continent": "asia",
+    "founded_year": 1968,
+    "fame_score": 2,
+    "tags": ["FounderName"]
+  },
+  {
+    "name": "Perodua",
+    "country": "Malaysia",
+    "continent": "asia",
+    "founded_year": 1993,
+    "fame_score": 2,
+    "tags": ["Post1980"]
+  },
+  {
+    "name": "Proton",
+    "country": "Malaysia",
+    "continent": "asia",
+    "founded_year": 1983,
+    "fame_score": 2,
+    "tags": ["Post1980", "LogoAnimal"]
+  },
+  {
+    "name": "Tata",
+    "country": "India",
+    "continent": "asia",
+    "founded_year": 1945,
+    "fame_score": 2,
+    "tags": ["EV", "FounderName", "WordmarkLogo"]
+  },
+  {
+    "name": "Mahindra",
+    "country": "India",
+    "continent": "asia",
+    "founded_year": 1945,
+    "fame_score": 2,
+    "tags": ["EV", "FounderName"]
+  },
+  {
+    "name": "Rivian",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 2009,
+    "fame_score": 2,
+    "tags": ["EV", "Post1980", "WordmarkLogo", "PikesPeak"]
+  },
+  {
+    "name": "Lucid",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 2007,
+    "fame_score": 2,
+    "tags": ["EV", "Post1980", "WordmarkLogo"]
+  },
+  {
+    "name": "Fisker",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 2007,
+    "fame_score": 2,
+    "tags": ["EV", "Post1980", "FounderName", "WordmarkLogo"]
+  },
+  {
+    "name": "Hennessey",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1991,
+    "fame_score": 2,
+    "tags": ["Post1980", "FounderName", "MidEngine"]
+  },
+  {
+    "name": "Saleen",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1983,
+    "fame_score": 2,
+    "tags": ["Post1980", "FounderName", "MidEngine"]
+  },
+  {
+    "name": "Panoz",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1989,
+    "fame_score": 2,
+    "tags": ["Post1980", "LeMans", "FounderName", "MidEngine"]
+  },
+  {
+    "name": "Callaway",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1977,
+    "fame_score": 2,
+    "tags": ["FounderName", "WordmarkLogo"]
+  },
+  {
+    "name": "Abarth",
+    "country": "Italy",
+    "continent": "europe",
+    "founded_year": 1949,
+    "fame_score": 2,
+    "tags": ["EV", "Stellantis", "LogoAnimal", "FounderName"]
+  },
+  {
+    "name": "Lancia",
+    "country": "Italy",
+    "continent": "europe",
+    "founded_year": 1906,
+    "fame_score": 2,
+    "tags": ["EV", "Stellantis", "Pre1920", "WRC", "FounderName", "LeMans", "MidEngine", "PopUpHeadlights", "Dakar"]
+  },
+  {
+    "name": "Alpina",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1965,
+    "fame_score": 2,
+    "tags": ["FounderName", "WordmarkLogo"]
+  },
+  {
+    "name": "Ruf",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1939,
+    "fame_score": 2,
+    "tags": ["FounderName", "BoxerEngine", "MidEngine"]
+  },
+  {
+    "name": "Gumpert",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 2004,
+    "fame_score": 2,
+    "tags": ["Post1980", "FounderName", "MidEngine"]
+  },
+  {
+    "name": "Wiesmann",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1988,
+    "fame_score": 2,
+    "tags": ["Post1980", "LogoAnimal", "FounderName"]
+  },
+  {
+    "name": "Bitter",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1971,
+    "fame_score": 2,
+    "tags": ["FounderName"]
+  },
+  {
+    "name": "Venturi",
+    "country": "France",
+    "continent": "europe",
+    "founded_year": 1984,
+    "fame_score": 2,
+    "tags": ["EV", "Post1980", "MidEngine"]
+  },
+  {
+    "name": "Ligier",
+    "country": "France",
+    "continent": "europe",
+    "founded_year": 1968,
+    "fame_score": 2,
+    "tags": ["F1", "LeMans", "FounderName", "MidEngine"]
+  },
+  {
+    "name": "Aixam",
+    "country": "France",
+    "continent": "europe",
+    "founded_year": 1983,
+    "fame_score": 2,
+    "tags": ["EV", "Post1980", "WordmarkLogo"]
+  },
+  {
+    "name": "Microcar",
+    "country": "France",
+    "continent": "europe",
+    "founded_year": 1984,
+    "fame_score": 2,
+    "tags": ["EV", "Post1980", "WordmarkLogo"]
+  },
+  {
+    "name": "Donkervoort",
+    "country": "Netherlands",
+    "continent": "europe",
+    "founded_year": 1978,
+    "fame_score": 2,
+    "tags": ["FounderName", "WordmarkLogo"]
+  },
+  {
+    "name": "Spyker",
+    "country": "Netherlands",
+    "continent": "europe",
+    "founded_year": 1880,
+    "fame_score": 2,
+    "tags": ["Pre1920", "MidEngine", "FounderName"]
+  },
+  {
+    "name": "Zenvo",
+    "country": "Denmark",
+    "continent": "europe",
+    "founded_year": 2004,
+    "fame_score": 2,
+    "tags": ["Post1980", "MidEngine", "12pluscylinders"]
+  },
+  {
+    "name": "Ariel",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1991,
+    "fame_score": 2,
+    "tags": ["Post1980", "MidEngine", "WordmarkLogo"]
+  },
+  {
+    "name": "Noble",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1999,
+    "fame_score": 2,
+    "tags": ["Post1980", "MidEngine", "FounderName"]
+  },
+  {
+    "name": "Radical",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1997,
+    "fame_score": 2,
+    "tags": ["Post1980", "MidEngine", "LeMans"]
+  },
+  {
+    "name": "BAC",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 2009,
+    "fame_score": 2,
+    "tags": ["Post1980", "MidEngine", "AcronymName"]
+  },
+  {
+    "name": "Ultima",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1992,
+    "fame_score": 2,
+    "tags": ["Post1980", "MidEngine"]
+  },
+  {
+    "name": "Ginetta",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1958,
+    "fame_score": 2,
+    "tags": ["MidEngine", "LeMans"]
+  },
+  {
+    "name": "Bristol",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1945,
+    "fame_score": 2,
+    "tags": ["WordmarkLogo"]
+  },
+  {
+    "name": "Pininfarina",
+    "country": "Italy",
+    "continent": "europe",
+    "founded_year": 2018,
+    "fame_score": 2,
+    "tags": ["EV", "Post1980", "MidEngine", "FounderName"]
+  },
+  {
+    "name": "Dallara",
+    "country": "Italy",
+    "continent": "europe",
+    "founded_year": 1972,
+    "fame_score": 2,
+    "tags": ["F1", "LeMans", "MidEngine", "FounderName"]
+  },
+  {
+    "name": "Pontiac",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1926,
+    "fame_score": 2,
+    "tags": ["WordmarkLogo", "PopUpHeadlights", "MidEngine"]
+  },
+  {
+    "name": "Saturn",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1985,
+    "fame_score": 1,
+    "tags": ["Post1980"]
+  },
+  {
+    "name": "Oldsmobile",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1897,
+    "fame_score": 2,
+    "tags": ["Pre1920", "FounderName"]
+  },
+  {
+    "name": "Plymouth",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1928,
+    "fame_score": 2,
+    "tags": []
+  },
+  {
+    "name": "Mercury",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1938,
+    "fame_score": 2,
+    "tags": []
+  },
+  {
+    "name": "AMC",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1954,
+    "fame_score": 1,
+    "tags": ["AcronymName"]
+  },
+  {
+    "name": "DeLorean",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1975,
+    "fame_score": 2,
+    "tags": ["FounderName", "WordmarkLogo"]
+  },
+  {
+    "name": "Hummer",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1992,
+    "fame_score": 2,
+    "tags": ["Post1980", "WordmarkLogo"]
+  },
+  {
+    "name": "Studebaker",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1852,
+    "fame_score": 1,
+    "tags": ["Pre1920", "FounderName"]
+  },
+  {
+    "name": "Hudson",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1909,
+    "fame_score": 1,
+    "tags": ["Pre1920", "FounderName"]
+  },
+  {
+    "name": "Packard",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1899,
+    "fame_score": 1,
+    "tags": ["Pre1920", "FounderName", "12pluscylinders"]
+  },
+  {
+    "name": "Cord",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1929,
+    "fame_score": 1,
+    "tags": ["FounderName"]
+  },
+  {
+    "name": "Duesenberg",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1913,
+    "fame_score": 1,
+    "tags": ["Pre1920", "FounderName"]
+  },
+  {
+    "name": "Tucker",
+    "country": "USA",
+    "continent": "america",
+    "founded_year": 1946,
+    "fame_score": 1,
+    "tags": ["FounderName"]
+  },
+  {
+    "name": "Saab",
+    "country": "Sweden",
+    "continent": "europe",
+    "founded_year": 1945,
+    "fame_score": 2,
+    "tags": ["WRC", "AcronymName"]
+  },
+  {
+    "name": "Rover",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1904,
+    "fame_score": 2,
+    "tags": ["Pre1920"]
+  },
+  {
+    "name": "Triumph",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1885,
+    "fame_score": 1,
+    "tags": ["Pre1920"]
+  },
+  {
+    "name": "Austin",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1905,
+    "fame_score": 1,
+    "tags": ["Pre1920", "FounderName"]
+  },
+  {
+    "name": "Morris",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1912,
+    "fame_score": 1,
+    "tags": ["Pre1920", "FounderName"]
+  },
+  {
+    "name": "Jensen",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1934,
+    "fame_score": 1,
+    "tags": ["FounderName"]
+  },
+  {
+    "name": "Hillman",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1907,
+    "fame_score": 1,
+    "tags": ["Pre1920", "FounderName"]
+  },
+  {
+    "name": "Sunbeam",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1905,
+    "fame_score": 1,
+    "tags": ["Pre1920", "LeMans", "WRC"]
+  },
+  {
+    "name": "Wolseley",
+    "country": "UK",
+    "continent": "europe",
+    "founded_year": 1901,
+    "fame_score": 1,
+    "tags": ["Pre1920", "FounderName"]
+  },
+  {
+    "name": "Simca",
+    "country": "France",
+    "continent": "europe",
+    "founded_year": 1934,
+    "fame_score": 1,
+    "tags": ["AcronymName"]
+  },
+  {
+    "name": "Panhard",
+    "country": "France",
+    "continent": "europe",
+    "founded_year": 1887,
+    "fame_score": 1,
+    "tags": ["Pre1920", "FounderName", "LeMans", "Dakar"]
+  },
+  {
+    "name": "Talbot",
+    "country": "France",
+    "continent": "europe",
+    "founded_year": 1903,
+    "fame_score": 1,
+    "tags": ["Pre1920", "F1", "WRC", "LeMans", "Dakar"]
+  },
+  {
+    "name": "Facel Vega",
+    "country": "France",
+    "continent": "europe",
+    "founded_year": 1954,
+    "fame_score": 1,
+    "tags": ["AcronymName"]
+  },
+  {
+    "name": "Matra",
+    "country": "France",
+    "continent": "europe",
+    "founded_year": 1964,
+    "fame_score": 1,
+    "tags": ["F1", "LeMans", "MidEngine", "AcronymName"]
+  },
+  {
+    "name": "NSU",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1873,
+    "fame_score": 1,
+    "tags": ["Pre1920", "RotaryEngine", "AcronymName"]
+  },
+  {
+    "name": "Borgward",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1919,
+    "fame_score": 1,
+    "tags": ["Pre1920", "FounderName"]
+  },
+  {
+    "name": "Trabant",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1957,
+    "fame_score": 2,
+    "tags": ["WordmarkLogo"]
+  },
+  {
+    "name": "Wartburg",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1898,
+    "fame_score": 1,
+    "tags": ["Pre1920"]
+  },
+  {
+    "name": "Horch",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1904,
+    "fame_score": 1,
+    "tags": ["Pre1920", "FounderName", "WordmarkLogo"]
+  },
+  {
+    "name": "Auto Union",
+    "country": "Germany",
+    "continent": "europe",
+    "founded_year": 1932,
+    "fame_score": 1,
+    "tags": []
+  },
+  {
+    "name": "Autobianchi",
+    "country": "Italy",
+    "continent": "europe",
+    "founded_year": 1955,
+    "fame_score": 1,
+    "tags": []
+  },
+  {
+    "name": "Innocenti",
+    "country": "Italy",
+    "continent": "europe",
+    "founded_year": 1947,
+    "fame_score": 1,
+    "tags": ["FounderName"]
+  },
+  {
+    "name": "Bizzarrini",
+    "country": "Italy",
+    "continent": "europe",
+    "founded_year": 1964,
+    "fame_score": 1,
+    "tags": ["MidEngine", "LeMans", "FounderName"]
+  },
+  {
+    "name": "Iso",
+    "country": "Italy",
+    "continent": "europe",
+    "founded_year": 1953,
+    "fame_score": 1,
+    "tags": []
+  },
+  {
+    "name": "De Tomaso",
+    "country": "Italy",
+    "continent": "europe",
+    "founded_year": 1959,
+    "fame_score": 1,
+    "tags": ["F1", "MidEngine", "FounderName"]
+  },
+  {
+    "name": "Holden",
+    "country": "Australia",
+    "continent": "oceania",
+    "founded_year": 1856,
+    "fame_score": 2,
+    "tags": ["Pre1920", "FounderName", "LogoAnimal"]
+  },
+  {
+    "name": "Lada",
+    "country": "Russia",
+    "continent": "europe",
+    "founded_year": 1966,
+    "fame_score": 2,
+    "tags": ["WordmarkLogo", "Dakar"]
+  }
+]
